@@ -1,0 +1,195 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-12 00:01:46
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-16 01:11:56
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 438625 */
+  src: url('http://at.alicdn.com/t/font_438625_c8f0hx7dewrhehfr.eot');
+  src: url('http://at.alicdn.com/t/font_438625_c8f0hx7dewrhehfr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_438625_c8f0hx7dewrhehfr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_438625_c8f0hx7dewrhehfr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_438625_c8f0hx7dewrhehfr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+    font-size: 0.26rem;
+    color: #585c64;
+    font-style: normal;
+}
+
+/* =======================顶部搜索========================= */
+.dingbu{
+	width: calc(100% - 0.2rem);
+	height: 0.37rem;
+	background: #fbfbfa;
+	margin: 0 auto;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	border-bottom: 0.01rem solid #e6e6e6;
+}
+.logo{
+	width: 0.35rem;
+	height: 0.30rem;
+}
+.dingbu-zuo{
+	width: 0.37rem;
+	height: 0.37rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.spbt{
+	font-size: 0.14rem;
+	color: #333333;
+}
+.dingbu-zhong{
+	width:80%;
+	height: 0.24rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	position: relative;
+	
+}
+.dingbu-zuo i{
+	font-size: 0.2rem;
+	color: #333333;
+}
+.dingbu-you i{
+	font-size: 0.2rem;
+	color: #333333;
+}
+.dingbu-you{
+	width: 0.37rem;
+	height: 0.37rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+/* ================================================ */
+.denglu{
+	width: 100%;
+	height: 0.4rem;
+	background: #ffffff;
+	margin-top: 0.37rem;
+	border-bottom: 0.01rem solid #e6e6e6;
+	display: flex;
+}
+.denglu-xbox{
+	width: 50%;
+	height: 0.4rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.denglu-xbox a{
+	font-size: 0.12rem;
+	color: #333333;
+}
+.denglu1{
+	width: 100%;
+	height: 0.4rem;
+	background: #ffffff;
+	margin-top: 0.37rem;
+	border-bottom: 0.01rem solid #e6e6e6;
+	display: flex;
+}
+.denglu1-xbox{
+	width: calc(100% - 0.2rem);
+	height: 0.4rem;
+	display: flex;
+	justify-content:flex-start;
+	align-items:center;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+}
+.denglu1-xbox p{
+	font-size: 0.12rem;
+	color: #000000;
+}
+.dl-zh{
+	width: 80%;
+	height: 0.4rem;
+	border: none;
+	padding-left: 0.1rem;
+}
+.denglu-kuan{
+	width: calc(100% - 0.2rem);
+	height: 0.35rem;
+	background: #ff6600;
+	border-radius: 0.05rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.denglu-kuan a {
+	font-size: 0.14rem;
+	color: #ffffff;
+}
+.wjmm{
+	display: block;
+	width: calc(100% - 0.2rem);
+	height: 0.3rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 0.12rem;
+	color: #666666;
+}
+.zc-kuan{
+	width: 40%;
+	height: 0.3rem;
+	background: #ffffff;
+	border-radius: 0.05rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	border: 0.01rem solid #ff6600;
+}
+.zc-kuan a {
+	font-size: 0.14rem;
+	color: #ff6600;
+}
+.qt-kuan{
+	width: calc(100% - 0.2rem);
+	height: 0.35rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	font-size: 0.14rem;
+	color: #999999;
+	margin-top: 1rem;
+}
+.dlfs{
+	width: calc(100% - 0.2rem);
+	height: 0.35rem;
+	display: flex;
+	margin: 0 auto;
+}
+.dlfs a{
+	display: block;
+	width: 25%;
+	height: 0.35rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.12rem;
+	color: #333333;
+
+}

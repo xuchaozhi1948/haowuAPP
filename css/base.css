@@ -1,0 +1,27 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-30 11:37:49
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-19 15:45:11
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+}
+a{
+	text-decoration: none;
+	font-family: "微软雅黑","宋体",sans-serif;
+}
+body{
+	background: #ffffff;
+}
+img{
+	/* 为了兼容IE6 */
+	border: 0; 
+}
+/* html { overflow: hidden; } */
+::-webkit-scrollbar {/*隐藏滚轮*/
+display: none;
+}

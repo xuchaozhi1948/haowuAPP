@@ -1,0 +1,474 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-12 00:01:46
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-16 09:41:31
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 438625 */
+  src: url('http://at.alicdn.com/t/font_438625_c8f0hx7dewrhehfr.eot');
+  src: url('http://at.alicdn.com/t/font_438625_c8f0hx7dewrhehfr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_438625_c8f0hx7dewrhehfr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_438625_c8f0hx7dewrhehfr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_438625_c8f0hx7dewrhehfr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+    font-size: 0.26rem;
+    color: #585c64;
+    font-style: normal;
+}
+/* =======================顶部搜索========================= */
+.dingbu{
+	width: calc(100% - 0.2rem);
+	height: 0.37rem;
+	background: #fbfbfa;
+	margin: 0 auto;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.logo{
+	width: 0.35rem;
+	height: 0.30rem;
+}
+.dingbu-zuo{
+	width: 0.37rem;
+	height: 0.37rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.dingbu-zhong{
+	width:80%;
+	height: 0.24rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	position: relative;
+}
+.sousuo{
+	width:100%;
+	height: 0.24rem;
+	border-radius: 0.2rem;
+	border:none;
+	padding-left: 0.2rem;
+	background: #efefef;
+	
+}
+.sousuo-icon{
+	width: 0.24rem;
+	height: 0.24rem;
+	position: absolute;
+	right: 0.08rem;
+	top: 0;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.sousuo-icon i{
+	font-size: 0.16rem;
+	color: #333333;
+}
+.sousuo:focus{
+	outline: none;
+}
+.dingbu-you{
+	width: 0.37rem;
+	height: 0.37rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+/* =======================导航========================= */
+.daohang{
+	width: 100%;
+	height: 0.34rem;
+	background: #39424a;
+	margin: 0 auto;
+	/* padding-left: 0.1rem;
+	padding-right: 0.1rem;  */
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	border-bottom: 0.01rem solid #ffffff;
+	position:fixed;
+	top: 0.37rem;
+	left: 0;
+	z-index: 999;
+}
+.daohang-box{
+	width: 50%;
+	height: 0.14rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.daohang-box a{
+	font-size: 0.12rem;
+	color: #f5f5f5;
+}
+.daohang-box:nth-child(2){
+	border-left: 1px solid #c9c9c9;
+	border-right: 1px solid #c9c9c9;
+	box-sizing: border-box;
+}
+/* =======================banner========================= */
+.qyhz{
+	width: 100%;
+	height: 0.71rem;
+}
+.banner-hezi{
+	width: 100%;
+	height: 1.27rem;
+	/* margin: 0 auto; */
+	position: relative;
+}
+.banner{
+	width: 100%;
+	height: 1.27rem;
+	/* margin: 0 auto; */
+	position: relative;
+}
+.banner li{
+	width: 100%;
+	height: 1.27rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner-dian{
+	width: 1.1rem;
+	height: 0.1rem;
+	position: absolute;
+	bottom: 0.01rem;
+	right: 0.1rem;
+}
+.dianyuan{
+	width: 0.08rem;
+	height: 0.08rem;
+	background: rgba(0, 0, 0, 0.5);
+	border: 0.01rem solid #c6b3b7;
+	float: left;
+	border-radius: 50%;
+	margin-right: 0.1rem;
+}
+.banner-dian a:last-child li{
+	margin-right: 0rem;
+}
+.banner-tu{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* =======================列表导航========================= */
+.navList{
+	width: calc(100% - 0.2rem);
+	height: 1.57rem;
+	background: #ffffff;
+	margin: 0 auto;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	display: flex;
+	flex-wrap:wrap;
+	align-content:space-around;
+}
+.navList-yp{
+	width: 100%;
+	height: 0.5rem;
+	display: flex;
+	justify-content:space-between;
+}
+.navList-yp li{
+	width: 0.5rem;
+	height: 0.5rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;	
+}
+.nav-tu{
+	display: block;
+	width: 0.46rem;
+	height: 0.35rem;
+}
+.nav-wz{
+	display: block;
+	font-size: 0.12rem;
+	color: #999999;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+ /* =======================活动========================= */
+img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.huodong1{
+	width: 100%;
+	height: 1.6rem;
+	border-top: 0.01rem solid #fff;
+}
+.hds-box{
+	width: 100%;
+	height: 0.9386rem;
+}
+.hdx-box{
+	width: 100%;
+	height: 0.6655rem;
+}
+
+.huodong2{
+	width: 100%;
+	height: 0.99rem;
+	border-top: 0.01rem solid #fff;
+	display:flex;
+}
+.hds-box2{
+	width: 50%;
+	height: 0.99rem;
+}
+
+.huodong3{
+	width: 100%;
+	height: 1.11rem;
+	display:flex;
+	border-top: 0.01rem solid #fff;
+}
+.hds-box3{
+	width: calc(100% / 3);
+	height: 1.11rem;
+}
+
+.huodong4{
+	width: 100%;
+	height: 0.99rem;
+	display:flex;
+}
+.hds-box4{
+	width: 50%;
+	height: 0.99rem;
+}
+
+.huodong5{
+	width: 100%;
+	height: 0.3rem;
+	border-top: 0.01rem solid #fff;
+}
+/* =======================会员专属========================= */
+.huiyuan1{
+	width: 100%;
+	height: 0.41rem;
+}
+.huiyuan2{
+	width: 100%;
+	height: 2rem;
+	display: flex;
+}
+.hyzs-box2{
+	width: 50%;
+	height: 2rem;
+}
+.hyzs-xbox{
+	width: 100%;
+	height: 50%;
+}
+/* =======================活动2========================= */
+.huodong2-1{
+	width: 100%;
+	height: 0.66rem;
+	border-top: 0.01rem solid #fff;
+}
+.huodong2-2{
+	width: 100%;
+	height: 1.5rem;
+	display:flex;
+	border-top: 0.01rem solid #fff;
+}
+.hd-box2-2{
+	width: calc(100% / 3);
+	height: 1.5rem;
+}
+.huodong2-3{
+	width: 100%;
+	height: 0.3rem;
+	display: flex;
+}
+.hd-box2-3{
+	width: 50%;
+	height: 0.3rem;
+}
+.huodong2-4{
+	width: 100%;
+	height: 0.665rem;
+	display:flex;
+}
+.hd-box2-4{
+	width: calc(100% / 3);
+	height: 0.665rem;
+}
+.huodong2-5{
+	width: 100%;
+	height: 0.768rem;
+}
+/* =======================时尚风暴========================= */
+.shishan{
+	width: 100%;
+	height: 0.31rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.shishan a{
+	font-size: 0.14rem;
+	color: #000;
+}
+.shishan-tu{
+	width: 100%;
+	height: 1.53rem;
+}
+.shishan1{
+	width: 100%;
+	height: 0.34rem;
+	display: flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+.shishan1 a{
+	font-size: 0.12rem;
+	color: #000;
+	margin-left: 0.15rem;
+}
+span{
+	font-size: 0.14rem;
+	color: #e4007f;
+	padding-right: 0.1rem;
+}
+.shishan-tu2{
+	width: 100%;
+	height: 2.1rem;
+}
+/* =======================底部========================= */
+.dinav{
+	width: 100%;
+	height: 1.6rem;
+	border-top: 1px solid #999999;
+}
+.dinav-box{
+	width: 100%;
+	height: 0.73rem;
+	display: flex;
+	justify-content:space-around;
+}
+.dinav-box li{
+	width: 0.8rem;
+	height: 0.73rem;
+	border-left: 1px solid #cccccc;
+}
+.dinav-box li:first-child{
+	border-left: 0px solid #cccccc;
+}
+.dinav p{
+	font-size: 0.12rem;
+	color: #999999;
+	margin-top: 0.15rem;
+	margin-bottom: 0.22rem;
+	text-align: center;
+}
+.dinav p a{
+	font-size: 0.12rem;
+	color: #e4007f;
+	text-decoration:underline;
+}
+.dinav-tu{
+	width: 0.79rem;
+	height: 0.45rem;
+}
+#dinav-wz{
+	display: block;
+	font-size: 0.12rem;
+	color: #666666;
+	text-align: center;
+	font-weight: normal;
+}
+.dibu-box{
+	width: 100%;
+	height: 1.2rem;
+	background: #ffffff;
+	border-top: 0.01rem solid #999999;
+}
+.dibu-yp{
+	width: 100%;
+	height:0.74rem;
+	display: flex;
+	justify-content:space-around;
+}
+.dibu-yp li{
+	width: 0.8rem;
+	height: 0.14rem;
+	display: flex;
+	justify-content:center;
+	margin-top: 0.1rem;
+}
+.dibu-yp li a{
+	font-size: 0.12rem;
+	color: #999999;
+}
+.dibu-box p{
+	font-size: 0.12rem;
+	color: #cccccc;
+	text-align: center;
+}
+/* =======================固定========================= */
+.guding{
+	width: 100%;
+	height: 0.5rem;
+}
+.guding-yp{
+	width: 100%;
+	height: 0.5rem;
+	background:#39424a;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+}
+.guding-yp li{
+	width: 20%;
+	height: 0.45rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.gdbt-wz{
+	display: block;
+	width: 100%;
+	font-size: 0.10rem;
+	color: #ffffff;	
+	text-align: center;
+}
+.gdbt-tb i{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.2rem;
+	color: #ffffff;
+	text-align: center;
+}
+.gdbt-wz1{
+	color: #ff0036;
+}
+.gdbt-tb1 i{
+	color: #ff0036;
+}
